@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "ACW-basic"
+  },
+  "hostingPlanName": {
+    "value": "ACW-basic"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "99e50b76-dc1b-447f-b814-4c388e80b629"
+  },
+  "resourceGroup": {
+    "value": "ACW-basic"
+  }
+}
