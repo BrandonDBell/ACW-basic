@@ -66,6 +66,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="js\bootstrap.js" />
+    <None Include="bundleconfig.json" />
+    <None Include="js\jquery-1.10.2.intellisense.js" />
+    <Content Include="js\bundle.js" />
+    <Content Include="js\bundle.min.js">
+      <DependentUpon>bundle.js</DependentUpon>
+    </Content>
+    <Content Include="js\jquery-1.10.2.js" />
+    <None Include="js\jquery.validate-vsdoc.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\jquery.validate.unobtrusive.js" />
+    <Content Include="js\modernizr-2.6.2.js" />
+    <Content Include="js\respond.js" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\ACW-basic.pubxml" />
     <None Include="Web.Debug.config">
@@ -92,9 +109,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
     <Folder Include="images\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
