@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="ACW_basic.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Aluminum Coatings West</title>
+    <meta name="google-site-verification" content="Qv1oP6_HutGI_y9NM4lNJNmd9O0P5zoywfuE0or_DtE" />
+    <link rel="stylesheet" href="/css/bundle.min.css" type="text/css" media="screen, projection" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Aluminum Coatings West</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/conversion-process">Conversion Process
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/services">Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/data-sheets">Data
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+        </footer>
+    </form>
+    <script type="text/javascript" src="/js/bundle.min.js"></script>
+</body>
+</html>

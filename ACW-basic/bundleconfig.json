@@ -1,15 +1,21 @@
 [
-    {
-        "outputFileName": "js/bundle.js",
-        "inputFiles": [
-            "js/jquery-1.10.2.js",
-            "js/modernizr-2.6.2.js",
-            "js/jquery.validate-vsdoc.js",
-            "js/jquery.validate.js",
-            "js/jquery.validate.unobtrusive.js",
-            "js/bootstrap.js",
-            "js/respond.js",
-            "js/jquery-1.10.2.intellisense.js",
-        ]
-    }
+  {
+    "outputFileName": "js/bundle.js",
+    "inputFiles": [
+      "js/jquery-1.10.2.js",
+      "js/modernizr-2.6.2.js",
+      "js/jquery.validate-vsdoc.js", 
+      "js/jquery.validate.js",
+      "js/jquery.validate.unobtrusive.js",
+      "js/bootstrap.js",
+      "js/respond.js"
+    ]   
+  },
+  {
+    "outputFileName": "css/bundle.css",
+    "inputFiles": [
+        "css/bootstrap.css",
+        "css/site.css"
+    ]
+  }
 ]

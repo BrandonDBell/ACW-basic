@@ -1,35 +1,26 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ACW_basic._default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ACW_basic._default" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <meta name="google-site-verification" content="Qv1oP6_HutGI_y9NM4lNJNmd9O0P5zoywfuE0or_DtE" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="screen, projection" />
-</head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-
-        <hr />
-        <footer>
-        </footer>
-    </div>
-    <script type="text/javascript" src="/js/bundle.min.js"></script>
-</body>
-</html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1>
+        About us
+    </h1>
+    <p>
+        Aluminum Coatings West was created in 2015 with the sole purpose of servicing the aluminum coating space within the 
+        automotive industry.  The goal is to service the industry with high turn around times and high
+         quality services from coating, subassembly and shipping to the customer. 
+    </p>
+    <h3>The Coating Process
+    </h3>
+    <p>
+        The Coating process begins by immersing the work in a series of solutions where various operations are performed.
+         The solutions are held in open top tanks and the work passes through each tank. The work usually consists of 
+        specific items that are placed on special designed racks and carried through the process in batches.
+    </p>
+    <p>
+        Overhead cranes move the racks from one tank to the next. ACW's facilities have multiple overhead cranes 
+        to increase productivity and minimize "down-time." The work is rinsed thoroughly after each operation
+         to avoid contamination and interference in the next solution.
+    </p>
+</asp:Content>
