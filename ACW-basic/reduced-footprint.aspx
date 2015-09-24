@@ -1,11 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.Master" AutoEventWireup="true" CodeBehind="conversion-process.aspx.cs" Inherits="ACW_basic.conversion_process" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.Master" AutoEventWireup="true" CodeBehind="reduced-footprint.aspx.cs" Inherits="ACW_basic.conversion_process" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <title>ACW: Conversion Process</title>
+    <title>ACW: Reduced Footprint</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="conversion-process">
-        <h1>Non-Chromate Conversion process
+    <div class="reduced-footprint">
+        <h1>Non-Chromate Environmentally Friendly Process
         </h1>
         <p>
             The use of the entire Houghton conversion coating chemical process has lead to an improved process for the automotive and painting industries.

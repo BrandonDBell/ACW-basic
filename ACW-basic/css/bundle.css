@@ -6817,17 +6817,34 @@ td.visible-print {
 .body-content {
   margin-bottom: 25px; }
 
-.conversion-process .col-md-6 img {
+.reduced-footprint .col-md-6 img {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
   text-align: center; }
-.conversion-process .col-md-6 span {
+.reduced-footprint .col-md-6 span {
   display: block;
   margin: 0 auto;
   text-align: center; }
 
+.conversion-process > div:first-of-type {
+  text-align: center; }
+  .conversion-process > div:first-of-type img {
+    width: 100%;
+    margin: 0 auto; }
+    .conversion-process > div:first-of-type img:first-of-type {
+      margin-top: 20px;
+      max-width: 1230px; }
+
 .data-sheets a {
   display: block; }
+
+.home > div {
+  text-align: center; }
+  .home > div img {
+    width: 100%;
+    max-width: 350px; }
+  .home > div span {
+    display: block; }
 
 /*# sourceMappingURL=site.css.map */

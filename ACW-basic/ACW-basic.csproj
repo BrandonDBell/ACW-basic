@@ -66,7 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="conversion-process.aspx" />
+    <Content Include="images\diagram.png" />
+    <Content Include="images\hoist-line.jpg" />
+    <Content Include="reduced-footprint.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
@@ -112,18 +114,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="services.aspx" />
+    <Content Include="coating-process.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="conversion-process.aspx.cs">
-      <DependentUpon>conversion-process.aspx</DependentUpon>
+    <Compile Include="reduced-footprint.aspx.cs">
+      <DependentUpon>reduced-footprint.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="conversion-process.aspx.designer.cs">
-      <DependentUpon>conversion-process.aspx</DependentUpon>
+    <Compile Include="reduced-footprint.aspx.designer.cs">
+      <DependentUpon>reduced-footprint.aspx</DependentUpon>
     </Compile>
     <Compile Include="data-sheets.aspx.cs">
       <DependentUpon>data-sheets.aspx</DependentUpon>
@@ -147,12 +149,12 @@
       <DependentUpon>main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="services.aspx.cs">
-      <DependentUpon>services.aspx</DependentUpon>
+    <Compile Include="coating-process.aspx.cs">
+      <DependentUpon>coating-process.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="services.aspx.designer.cs">
-      <DependentUpon>services.aspx</DependentUpon>
+    <Compile Include="coating-process.aspx.designer.cs">
+      <DependentUpon>coating-process.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
